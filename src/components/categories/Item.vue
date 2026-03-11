@@ -44,4 +44,8 @@
         align-items: center;
         column-gap: 2vw;
     }
+    p{
+    overflow-wrap: break-word;
+    word-break: break-word;
+    }
 </style>
