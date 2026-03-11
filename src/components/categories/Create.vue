@@ -9,7 +9,7 @@
         methods: {
         createCategory(){
             if (!this.name.trim()) {
-                alert('Введите название категории');
+                console.log('Введите название категории');
                 return;
             }
             this.$emit('createCategory', this.name);
